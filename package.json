@@ -1,5 +1,5 @@
 {
-  "name": "pushapi",
+  "name": "ampdemo",
   "version": "0.0.1",
   "description": "",
   "main": "server.js",
@@ -12,6 +12,7 @@
   "dependencies": {
     "body-parser": "^1.13.3",
     "compression": "^1.5.2",
-    "express": "^4.13.3"
+    "express": "^4.13.3",
+    "marko": "^3.4.2"
   }
 }
