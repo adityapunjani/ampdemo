@@ -34,6 +34,7 @@ require('fs').watch(__dirname, function (event, filename) {
 });
 
 app.get('/search.html', function (req, res) {
+    res.set('content-type', 'text/html; charset=UTF-8');
     res.end(fs.readFileSync(path.join('search.html')));
 });
 
